@@ -5,6 +5,7 @@
 # Dataset
 - We use [Grocery Dataset](https://github.com/gulvarol/grocerydataset) collected by Idea Teknoloji, Istanbul, Turkey. It contains 354 tobacco shelves images collected from ~40 locations with 4 cameras.
 - The images dataset can be downloaded using wget and unpacked using tar:
+
 `wget https://github.com/gulvarol/grocerydataset/releases/download/1.0/GroceryDataset_part1.tar.gz`
 `wget https://github.com/gulvarol/grocerydataset/releases/download/1.0/GroceryDataset_part2.tar.gz`
 `tar -xvzf GroceryDataset_part1.tar.gz`
