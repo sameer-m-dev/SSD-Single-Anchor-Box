@@ -47,6 +47,6 @@
 
 # Clarification of values in metrics.json
 - mAP - Value computed across all IoU thresholds, IoU=0.50:0.95
-- precisio - Computed by keeping IoU threshold as 0.75
+- precision - Computed by keeping IoU threshold as 0.75
 - recall - Value computed across all IoU thresholds, IoU=0.50:0.95
 - Reached mAP of 0.683 using just a single anchox box per feature-map cell
