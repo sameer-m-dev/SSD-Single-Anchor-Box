@@ -2,7 +2,15 @@
 - Given a grocery store shelf image, detect all products present in the shelf image (detection only at product or no-product level)
 - Implement a single shot object detector with only "one" anchor box per feature-map cell.
 
-# Dataset Preperation
+# Dataset
+- We use [Grocery Dataset](https://github.com/gulvarol/grocerydataset) collected by Idea Teknoloji, Istanbul, Turkey. It contains 354 tobacco shelves images collected from ~40 locations with 4 cameras.
+- The images dataset can be downloaded using wget and unpacked using tar:
+`wget https://github.com/gulvarol/grocerydataset/releases/download/1.0/GroceryDataset_part1.tar.gz`
+`wget https://github.com/gulvarol/grocerydataset/releases/download/1.0/GroceryDataset_part2.tar.gz`
+`tar -xvzf GroceryDataset_part1.tar.gz`
+`tar -xvzf GroceryDataset_part2.tar.gz`
+
+# Dataset Preparation
 - Used ProductImagesFromShelves in order to extract image co-ordinates for every product on every shelf
 - Used image width and height to calculate bounding box xmax and ymax co-ordinates
 
